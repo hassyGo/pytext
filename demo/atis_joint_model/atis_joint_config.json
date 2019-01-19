@@ -42,10 +42,9 @@
           }
         },
         "optimizer": {
-          "Adam": {
-            "lr": "0.001",
-            "weight_decay": 0
-          }
+          "type": "adam",
+          "lr": "0.001",
+          "weight_decay": 0
         },
         "trainer": {
           "epochs": 30
